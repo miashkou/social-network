@@ -16,6 +16,7 @@ const App = (props) => {
 
         <div class='app-wrapper'>
             <Header />
+
             <Navbar />
             <div class='app-wrapper-content'>
                 <Route path='/dialogs'
