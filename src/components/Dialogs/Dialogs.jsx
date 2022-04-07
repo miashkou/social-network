@@ -17,6 +17,16 @@ const Dialogs = (props) => {
             <div className={s.messages}>
                 { messagesElements }
             </div>
+
+             <div>
+             <div>
+                 <textarea> </textarea>
+             </div>
+             <div>
+                 <button onClick={ () => alert('samuraijs.com') }>Send message</button>
+             </div>
+             </div>
+
         </div>
     )
 }
